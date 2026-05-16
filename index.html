@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar-IQ" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سياسة الخصوصية — SilverSat</title>
+  <style>
+    body {
+      font-family: "Segoe UI", "Cairo", Tahoma, Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.8;
+      color: #222;
+      background: #fafbfc;
+    }
+    h1 { color: #1565C0; border-bottom: 2px solid #1565C0; padding-bottom: 8px; }
+    h2 { color: #1565C0; margin-top: 32px; }
+    h3 { color: #333; margin-top: 24px; }
+    p, li { font-size: 16px; }
+    ul { padding-right: 24px; }
+    .meta { color: #666; font-size: 14px; margin-bottom: 24px; }
+    .highlight {
+      background: #fff8e1;
+      border-right: 4px solid #f9a825;
+      padding: 12px 16px;
+      margin: 16px 0;
+      border-radius: 6px;
+    }
+    .contact {
+      background: #e3f2fd;
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 32px;
+    }
+    code { background: #eee; padding: 2px 6px; border-radius: 3px; }
+  </style>
+</head>
+<body>
+
+<h1>سياسة الخصوصية — SilverSat</h1>
+<div class="meta">
+  آخر تحديث: 16 مايو 2026<br>
+  السريان من: 16 مايو 2026
+</div>
+
+<p>
+نحن في <strong>Insightfy</strong> نطوّر تطبيق <strong>SilverSat</strong> (المُشار إليه فيما يلي بـ "التطبيق")
+لاستخدامه من قبل وكلاء خدمة IPTV الخاصة بشركة SilverSat لإدارة اشتراكات الزبائن.
+تشرح هذه السياسة ما هي البيانات التي يجمعها التطبيق، وكيف يستخدمها ويحميها، ومع من يشاركها.
+</p>
+
+<h2>1. البيانات التي نجمعها</h2>
+
+<h3>1.1. بيانات اعتماد الوكيل</h3>
+<ul>
+  <li><strong>اسم المستخدم (User ID)</strong>: الذي يُصدره مزوّد خدمة IPTV للوكيل.</li>
+  <li><strong>كلمة المرور</strong>: التي يُدخلها الوكيل في شاشة تسجيل الدخول.</li>
+</ul>
+<div class="highlight">
+  ⚠️ كلمة المرور <strong>تُحفظ محلياً فقط</strong> على جهاز الوكيل ضمن منظومة
+  Android Keystore المشفّرة بمفتاح مرتبط بأجهزة الجهاز. لا يتم إرسالها لأي خادم
+  خاص بنا أو طرف ثالث، باستثناء خادم مزوّد خدمة IPTV لإتمام عملية المصادقة.
+</div>
+
+<h3>1.2. معلومات الجهاز</h3>
+<ul>
+  <li><strong>AppDeviceId</strong>: معرّف عشوائي يولّده خادم مزوّد خدمة IPTV للتعرف على الجلسة.</li>
+  <li><strong>Firebase Installation ID + FCM Token</strong>: مُعرّف يُصدره Firebase لاستقبال إشعارات الإعلانات.
+    لا يحتوي على أي معلومات شخصية ولا يمكن ربطه باسم الوكيل أو بياناته.</li>
+</ul>
+
+<h3>1.3. صلاحيات النظام</h3>
+<ul>
+  <li><strong>الكاميرا</strong>: تُستخدم <em>فقط</em> لمسح أكواد الباركود (أرقام أجهزة الزبائن وأكواد التفعيل).
+    لا تُحفظ أي صور ولا فيديو. الكاميرا تعمل لحظة المسح فقط.</li>
+  <li><strong>الإنترنت + حالة الشبكة</strong>: للاتصال بخوادم مزوّد خدمة IPTV وخدمات Firebase.</li>
+  <li><strong>إشعارات</strong> (Android 13+): لعرض إعلانات الإدارة. اختيارية، يمكن رفضها دون تعطيل التطبيق.</li>
+</ul>
+
+<h2>2. كيف نستخدم البيانات</h2>
+<ul>
+  <li>تسجيل دخول الوكيل إلى نظام مزوّد خدمة IPTV.</li>
+  <li>تنفيذ عمليات تفعيل وتجديد اشتراكات الزبائن.</li>
+  <li>إرسال إشارة فك التشفير إلى بطاقات الزبائن.</li>
+  <li>عرض الإعلانات والإشعارات الإدارية للوكلاء.</li>
+  <li>فرض التحديث الإلزامي عند صدور إصدارات جديدة.</li>
+</ul>
+
+<p><strong>لا نستخدم بياناتك:</strong></p>
+<ul>
+  <li>للإعلان أو التسويق.</li>
+  <li>للتحليل السلوكي أو بناء ملف تعريفي.</li>
+  <li>للبيع أو المشاركة مع أي طرف ثالث للأغراض التجارية.</li>
+</ul>
+
+<h2>3. مشاركة البيانات</h2>
+<p>نشارك البيانات في ثلاث حالات محدودة فقط:</p>
+<ol>
+  <li>
+    <strong>مزوّد خدمة IPTV</strong> (SilverSat): اسم المستخدم وكلمة المرور المشفّرتان عبر RSA،
+    وأرقام الأجهزة وأكواد التفعيل/التجديد. هذه البيانات ضرورية لتنفيذ العمليات على نظامه.
+  </li>
+  <li>
+    <strong>Google Firebase</strong>: مُعرّفات FCM المجهولة (لا تحتوي بيانات شخصية)،
+    لإرسال إشعارات الإعلانات. تخضع لـ
+    <a href="https://policies.google.com/privacy" target="_blank">سياسة خصوصية Google</a>.
+  </li>
+  <li>
+    <strong>الجهات القانونية</strong>: في حال صدور أمر قضائي يلزمنا بالكشف عن بيانات.
+    لن نشارك بيانات بدون مثل هذا الإلزام.
+  </li>
+</ol>
+
+<h2>4. حماية البيانات</h2>
+<ul>
+  <li><strong>التشفير عند النقل</strong>: جميع الاتصالات بخوادم IPTV تتم عبر <code>HTTPS/TLS</code>
+    مع تثبيت بصمة الشهادة (Certificate Pinning) لمنع هجمات MITM.</li>
+  <li><strong>التشفير عند الحفظ</strong>: كلمة المرور تُحفظ في Android Keystore (مشفّرة بمفتاح أجهزة الجهاز).</li>
+  <li><strong>حماية من النسخ الاحتياطي</strong>: التطبيق يُعطّل خاصية Android Backup
+    لمنع استخراج البيانات عبر USB أو النقل بين الأجهزة.</li>
+  <li><strong>التعتيم</strong>: الكود الناتج مُعتّم (Obfuscated) لمنع الهندسة العكسية.</li>
+</ul>
+
+<h2>5. حقوق المستخدم</h2>
+<ul>
+  <li><strong>حذف البيانات المحفوظة</strong>: من إعدادات Android → التطبيقات → SilverSat → التخزين → "حذف البيانات".
+    هذا يحذف كلمة المرور وكل البيانات المحلية.</li>
+  <li><strong>تسجيل الخروج</strong>: زر "تسجيل الخروج" داخل التطبيق يُلغي الجلسة الحالية
+    (الباسورد تبقى محفوظة لتعبئة شاشة الدخول؛ استخدم "حذف البيانات" للحذف الكامل).</li>
+  <li><strong>إلغاء الاشتراك في الإشعارات</strong>: من إعدادات Android → التطبيقات → SilverSat → الإشعارات.</li>
+  <li><strong>الاستفسار عن بياناتك</strong>: تواصل معنا عبر البريد الإلكتروني أدناه.</li>
+</ul>
+
+<h2>6. الأطفال</h2>
+<p>
+هذا التطبيق مخصّص <strong>للوكلاء البالغين</strong> المُتعاقدين مع شركة SilverSat لإدارة الاشتراكات.
+لا يُسمح بالاستخدام من قبل أشخاص دون سنّ 18 عاماً، ولا نجمع عمداً أي بيانات من القاصرين.
+</p>
+
+<h2>7. التغييرات على هذه السياسة</h2>
+<p>
+قد نحدّث هذه السياسة من وقت لآخر. أي تعديل جوهري يُعلَن داخل التطبيق عبر إشعار قبل سريانه بأسبوع على الأقل.
+يبقى تاريخ آخر تحديث ظاهراً أعلى الصفحة.
+</p>
+
+<h2>8. الاتصال بنا</h2>
+<div class="contact">
+<strong>Insightfy</strong><br>
+البريد الإلكتروني: <a href="mailto:info@insightfy.app">info@insightfy.app</a><br>
+نرد على استفسارات الخصوصية خلال 7 أيام عمل.
+</div>
+
+</body>
+</html>
